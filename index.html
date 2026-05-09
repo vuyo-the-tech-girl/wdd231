@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <meta name="description" content="Home page for wdd231 course. Student: Vuyo Faleni Block 3 2026 May.">
+    <meta name="author" content="Vuyo Faleni">
+    <link rel="stylesheet" href="styles/homepage-small.css">
+    <link rel="stylesheet" href="styles/homepage-large.css">
+    <script src="scipts/homepage-course.js" defer></script>
+    <script src="scipts/homepage-date.js" defer></script>
+    <script src="scipts/homepage-nav.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="menu" aria-label="Open Menu">☰</button>
+    </header>
+
+    <nav>
+        <ul id="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hello. My name is Vuyo Faleni and I am from East London, South Africa. 
+                It is a small city on the coast, I enjoy sitting by the beach and 
+                watching the waves in my spare time because I find it calming. I also enjoy reading and baking. 
+                I am currently studying Software Development at BYU. I am thrilled to be learning something new and to broaden my horizons in tech.</p>
+        </section>
+
+        <section>
+            <h2>My Photo</h2>
+            <img src="images/selfpic.jpg" alt="Picture of myself">
+        </section>
+
+        <section>
+            <h2>South Africa, EL</h2>
+            <img src="images/South Africa.webp" alt="City landscape" width="300" height="200">
+            <p>South Africa is a country off the tip of southern Africa. It is a very diverse country with 12 official languages. 
+                We are well known for our skills in sports like rugby and cricket as well as our wildlife safaries.
+                 South Africa is home to the world's largest diamond. We also have the highest commercial bungee jump.</p>
+        </section>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="course-buttons">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+            <div id="course-cards"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+        <p>&copy; <span id="year"></span>2026 🌺 Vuyo Faleni 🌺 South Africa</p>
+        <p>Last Modified: <span id="lastModified"></span>05/09/2026</p>
+    </footer>
+</body>
+</html>
