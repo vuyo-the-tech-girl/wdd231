@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Acme Construction Co.",
+        "address": "456 Oak Ave, Springfield, ST 12345",
+        "phone": "1-416-987-6543",
+        "website": "https://acmeconstruction.com",
+        "image": "",
+        "membershipLevel": 3,
+        "description": "Commercial and residential construction services since 1998"
+    },
+    {
+        "name": "Blue Sky Cafe",
+        "address": "789 Elm St, Springfield, ST 12345",
+        "phone": "1-416-456-7890",
+        "website": "https://blueskycafe.com",
+        "image": "",
+        "membershipLevel": 2,
+        "description": "Local coffee shop and bakery with free WiFi"
+    },
+    {
+        "name": "Green Valley Landscaping",
+        "address": "321 Pine Rd, Springfield, ST 12345",
+        "phone": "1-416-321-6547",
+        "website": "https://greenvalleylandscaping.com",
+        "image": "",
+        "membershipLevel": 1,
+        "description": "Lawn care, garden design, and snow removal services"
+    },
+    {
+        "name": "TechNova Solutions",
+        "address": "1024 Binary Blvd, Springfield, ST 12345",
+        "phone": "1-416-555-0123",
+        "website": "https://technova.com",
+        "image": "",
+        "membershipLevel": 3,
+        "description": "IT consulting, web development, and cybersecurity"
+    },
+    {
+        "name": "Riverside Bookstore",
+        "address": "88 River Walk, Springfield, ST 12345",
+        "phone": "1-416-867-5309",
+        "website": "https://riversidebooks.com",
+        "image": "",
+        "membershipLevel": 2,
+        "description": "Independent bookstore with author events and a reading lounge"
+    },
+    {
+        "name": "Precision Auto Repair",
+        "address": "555 Motor Ln, Springfield, ST 12345",
+        "phone": "1-416-222-3333",
+        "website": "https://precisionauto.com",
+        "image": "",
+        "membershipLevel": 1,
+        "description": "ASE certified mechanics for all makes and models"
+    },
+    {
+        "name": "Sunrise Fitness Center",
+        "address": "900 Health St, Springfield, ST 12345",
+        "phone": "1-416-777-8899",
+        "website": "https://sunrisefitness.com",
+        "image": "",
+        "membershipLevel": 2,
+        "description": "24/7 gym with personal training and group classes"
+    }
+]
