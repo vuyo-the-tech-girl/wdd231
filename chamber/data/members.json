@@ -5,7 +5,7 @@
         "phone": "1-416-987-6543",
         "website": "https://acmeconstruction.com",
         "image": "",
-        "membershipLevel": 3,
+        "level": "gold",
         "description": "Commercial and residential construction services since 1998"
     },
     {
@@ -14,7 +14,7 @@
         "phone": "1-416-456-7890",
         "website": "https://blueskycafe.com",
         "image": "",
-        "membershipLevel": 2,
+        "level": "silver",
         "description": "Local coffee shop and bakery with free WiFi"
     },
     {
@@ -23,7 +23,7 @@
         "phone": "1-416-321-6547",
         "website": "https://greenvalleylandscaping.com",
         "image": "",
-        "membershipLevel": 1,
+        "level": "bronze",
         "description": "Lawn care, garden design, and snow removal services"
     },
     {
@@ -32,7 +32,7 @@
         "phone": "1-416-555-0123",
         "website": "https://technova.com",
         "image": "",
-        "membershipLevel": 3,
+        "level": "gold",
         "description": "IT consulting, web development, and cybersecurity"
     },
     {
@@ -41,7 +41,7 @@
         "phone": "1-416-867-5309",
         "website": "https://riversidebooks.com",
         "image": "",
-        "membershipLevel": 2,
+        "level": "silver",
         "description": "Independent bookstore with author events and a reading lounge"
     },
     {
@@ -50,7 +50,7 @@
         "phone": "1-416-222-3333",
         "website": "https://precisionauto.com",
         "image": "",
-        "membershipLevel": 1,
+        "level": "gold",
         "description": "ASE certified mechanics for all makes and models"
     },
     {
@@ -59,7 +59,7 @@
         "phone": "1-416-777-8899",
         "website": "https://sunrisefitness.com",
         "image": "",
-        "membershipLevel": 2,
+        "level": "silver",
         "description": "24/7 gym with personal training and group classes"
     }
 ]
