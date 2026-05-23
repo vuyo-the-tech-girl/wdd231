@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chamber of Commerce member directory for local businesses">
     <meta name="author" content="Vuyo Faleni">
-    <title>Chamber Directory</title>
+    <title>Home Page</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <meta property="og:title" content="Chamber Directory | Toronto Chamber of Commerce">
     <meta property="og:description" content="Find local businesses and members of the Your City Chamber of Commerce">
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="styles/directory-small.css">
     <link rel="stylesheet" href="styles/directory-large.css">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/getWeather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
 </head>
 
 <body>
@@ -30,14 +32,26 @@
     </header>
 
     <main>
-        <h2>Member Directory</h2>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="City skyline">
+            <a href="join.html" class="cta-btn">Join the Chamber</a>
+        </section>
 
-        <div class="view-toggle">
-            <button id="gridView">Grid</button>
-            <button id="listView">List</button>
-        </div>
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Ribbon Cutting: New Coffee Shop - Oct 15, 6 PM</p>
+        </section>
 
-        <div id="members" class="grid"></div>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div id="current-weather"></div>
+            <div id="forecast"></div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards"></div>
+        </section>
     </main>
 
     <footer>
