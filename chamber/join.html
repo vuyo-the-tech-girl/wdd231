@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce member Join for local businesses">
+    <meta name="author" content="Vuyo Faleni">
+    <title>Toronto Chamber of Commerce Join Page</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Chamber Join | Toronto Chamber of Commerce">
+    <meta property="og:description" content="Find local businesses and members of the Your City Chamber of Commerce">
+    <meta property="og:image" content="https://yourdomain.com/chamber/images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <script src="scripts/join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <button id="menu" aria-label="Toggle Menu"></button>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <main class="join-main">
+            <section class="form-section">
+                <h2>Membership Application</h2>
+                <form method="get" action="thankyou.html">
+
+                    <label for="firstName">First Name
+                        <input type="text" id="firstName" name="firstName" title="Enter your first name"
+                        autocomplete="given-name" required>
+                    </label>
+
+                    <label for="lastName">Last Name
+                        <input type="text" id="lastName" name="lastName" title="Enter your last name"
+                        autocomplete="family-name" required>
+                    </label>
+
+                    <label for="orgTitle">Organizational Title
+                        <input type="text" id="orgTitle" name="orgTitle"
+                        title="7+ characters, letters, hyphens, and spaces only"
+                        autocomplete="organization-title"
+                        pattern="[A-Za-z\s\-]{7,}">
+                    </label>
+
+                    <label for="email">Email Address
+                        <input type="email" id="email" name="email"
+                        title="Enter a valid email address"
+                        autocomplete="email" required
+                        placeholder="example@email.com">
+                    </label>
+
+                    <label for="phone">Mobile Phone Number
+                        <input type="tel" id="phone" name="phone"
+                        title="Enter your mobile phone number"
+                        autocomplete="tel" required>
+                    </label>
+
+                    <label for="organization">Business/Organization Name
+                        <input type="text" id="organization" name="organization"
+                        title="Enter your organization name"
+                        autocomplete="organization" required>
+                    </label>
+
+                    <label for="membership">Membership Level
+                        <select id="membership" name="membership" title="Select a membership level" required>
+                            <option value="" disabled selected>Select a Level...</option>
+                            <option value="np">NP Membership - No Fee</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                    <label for="description">Business/Organization Description
+                        <textarea id="description" name="description" title="Describe your organization"></textarea>
+                    </label>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <input type="submit" value="Submit Application">
+                </form>
+            </section>
+
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+
+                <div class="card" style="animation-delay: 0.1s;">
+                    <h3>NP Membership</h3>
+                    <p>No Fee for Non-Profits</p>
+                    <a href="#" data-modal="np-modal">Learn More</a>
+                </div>
+
+                <div class="card" style="animation-delay: 0.3s;">
+                    <h3>Bronze Membership</h3>
+                    <p>Entry Level Benefits</p>
+                    <a href="#" data-modal="bronze-modal">Learn More</a>
+                </div>
+
+                <div class="card" style="animation-delay: 0.5s;">
+                    <h3>Silver Membership</h3>
+                    <p>Enhanced Visibility</p>
+                    <a href="#" data-modal="silver-modal">Learn More</a>
+                </div>
+
+                <div class="card" style="animation-delay: 0.7s;">
+                    <h3>Gold Membership</h3>
+                    <p>Premium Benefits</p>
+                    <a href="#" data-modal="gold-modal">Learn More</a>
+                </div>
+            </section>
+
+            <dialog id="np-modal">
+                <h3>NP Membership Benefits</h3>
+                <ul>
+                    <li>Free for registered non-profit organizations</li>
+                    <li>Access to networking events</li>
+                    <li>Listing in online directory</li>
+                </ul>
+                <button class="close-modal">Close</button>
+            </dialog>
+
+            <dialog id="bronze-modal">
+                <h3>Bronze Membership Benefits</h3>
+                <ul>
+                    <li>All NP benefits</li>
+                    <li>Event discounts</li>
+                    <li>Basic training sessions</li>
+                </ul>
+                <button class="close-modal">Close</button>
+            </dialog>
+
+            <dialog id="silver-modal">
+                <h3>Silver Membership Benefits</h3>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Spotlight position on homepage</li>
+                    <li>Advanced training sessions</li>
+                    <li>Advertising opportunities</li>
+                </ul>
+                <button class="close-modal">Close</button>
+            </dialog>
+
+            <dialog id="gold-modal">
+                <h3>Gold Membership Benefits</h3>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Premium spotlight position</li>
+                    <li>Exclusive event access</li>
+                    <li>Priority advertising</li>
+                    <li>Free event booth</li>
+                </ul>
+                <button class="close-modal">Close</button>
+            </dialog>
+        </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Toronto Chamber</strong></p>
+            <p>123 Main St, Toronto, ST 12345</p>
+            <p>info@Toronto.org</p>
+            <p>(555) 123-4567</p>
+        </div>
+        <div class="dev-info">
+            <p>WDD 231 - Vuyo Faleni</p>
+            <p>&copy; <span id="year"></span> Toronto Chamber</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

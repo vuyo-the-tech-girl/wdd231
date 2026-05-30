@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce member Thank You page for joining businesses">
+    <meta name="author" content="Vuyo Faleni">
+    <title>Toronto Chamber of Commerce Thank You Page</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Chamber Thank | Toronto Chamber of Commerce">
+    <meta property="og:description" content="Find local businesses and members of the Your City Chamber of Commerce">
+    <meta property="og:image" content="https://yourdomain.com/chamber/images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <script src="scripts/thankyou.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <button id="menu" aria-label="Toggle Menu"></button>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+
+    <main>
+        <main class="thankyou-main">
+            <h2>Thank You for Applying!</h2>
+            <p>We appreciate you submitting your membership application. Here's what we received:</p>
+
+            <section class="submission-details">
+                <p><strong>First Name:</strong> <span id="displayFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="displayLastName"></span></p>
+                <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="displayPhone"></span></p>
+                <p><strong>Organization:</strong> <span id="displayOrg"></span></p>
+                <p><strong>Submitted On:</strong> <span id="displayTime"></span></p>
+            </section>
+
+            <p>We'll review your application and contact you soon.</p>
+            <a href="index.html" class="btn">Return to Home</a>
+        </main>
+        
+    <footer>
+        <div class="contact">
+            <p><strong>Toronto Chamber</strong></p>
+            <p>123 Main St, Toronto, ST 12345</p>
+            <p>info@Toronto.org</p>
+            <p>(555) 123-4567</p>
+        </div>
+        <div class="dev-info">
+            <p>WDD 231 - Vuyo Faleni</p>
+            <p>&copy; <span id="year"></span> Toronto Chamber</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
