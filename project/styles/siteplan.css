@@ -1,24 +1,24 @@
 /* COLOR SCHEME - used exclusively on this doc */
 :root {
---primary: #2A9D8F; /* Teal - headings, buttons, accents */
---secondary: #E9C46A; /* Sand - background highlights, hover */
---dark: #264653; /* Navy - body text, footer */
---light: #F4F4F4; /* Light gray - page background */
+    --primary: #2A9D8F; /* Teal - headings, buttons, accents */
+    --secondary: #E9C46A; /* Sand - background highlights, hover */
+    --dark: #264653; /* Navy - body text, footer */
+    --light: #F4F4F4; /* Light gray - page background */
 }
 
 /* TYPOGRAPHY */
 body {
-font-family: 'Open Sans', sans-serif; /* Body text */
-background-color: var(--light);
-color: var(--dark);
-line-height: 1.6;
-margin: 0;
-padding: 0;
+    font-family: 'Open Sans', sans-serif; /* Body text */
+    background-color: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
-font-family: 'Montserrat', sans-serif; /* Headings */
-color: var(--primary);
+    font-family: 'Montserrat', sans-serif; /* Headings */
+    color: var(--primary);
 }
 
 h1 { font-size: 2.2rem; }
@@ -26,79 +26,79 @@ h2 { font-size: 1.6rem; margin-top: 2rem; }
 h3 { font-size: 1.2rem; color: var(--dark); }
 
 .container {
-max-width: 900px;
-margin: 0 auto;
-padding: 2rem;
-background: white;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* COLOR USAGE EXAMPLES */
 .color-swatch {
-display: inline-block;
-width: 100px;
-height: 100px;
-border-radius: 8px;
-margin: 0.5rem;
-text-align: center;
-line-height: 100px;
-color: white;
-font-weight: 600;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 0.5rem;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: 600;
 }
 
 .btn-example {
-background-color: var(--primary);
-color: white;
-padding: 0.8rem 1.5rem;
-border: none;
-border-radius: 5px;
-font-family: 'Montserrat', sans-serif;
-cursor: pointer;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 .btn-example:hover {
-background-color: var(--secondary);
-color: var(--dark);
+    background-color: var(--secondary);
+    color: var(--dark);
 }
 
 /* WIREFRAME STYLES */
 .wireframe {
-border: 2px dashed var(--dark);
-padding: 1rem;
-margin: 1rem 0;
-background: var(--light);
-text-align: center;
-font-family: 'Open Sans', sans-serif;
+    border: 2px dashed var(--dark);
+    padding: 1rem;
+    margin: 1rem 0;
+    background: var(--light);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .mobile-wireframe {
-width: 300px;
-margin: 1rem auto;
+    width: 300px;
+    margin: 1rem auto;
 }
 
 .desktop-wireframe {
-width: 100%;
-max-width: 800px;
-margin: 1rem auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem auto;
 }
 
 .box {
-border: 1px solid var(--primary);
-padding: 1rem;
-margin: 0.5rem;
-background: white;
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    margin: 0.5rem;
+    background: white;
 }
 
 .grid-desktop {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
 }
 
 footer {
-margin-top: 3rem;
-padding: 1rem;
-background: var(--dark);
-color: var(--light);
-text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
 }
