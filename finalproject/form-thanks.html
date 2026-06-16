@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You | Blush & Tote</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <main style="text-align:center; padding:4rem 1rem;">
+        <h1>Thank You!</h1>
+        <p id="thanks-message"></p>
+        <a href="index.html" class="btn">Back to Home</a>
+    </main>
+<script>
+const params = new URLSearchParams(window.location.search);
+document.getElementById('thanks-message').textContent =
+`Thanks ${params.get('name')}! We’ll reply to ${params.get('email')} soon.`;
+</script>
+</body>
+</html>

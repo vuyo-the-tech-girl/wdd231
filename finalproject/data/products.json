@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Blush Paris Tote",
+        "price": 899,
+        "category": "tote",
+        "image": "images/first.jpg",
+        "description": "Spacious work tote with laptop sleeve, zip pocket, and blush pink faux leather. Fits 15-inch laptop + A4 documents.",
+        "dimensions": "38cm x 28cm x 14cm",
+        "material": "PU Leather"
+    },
+    {
+        "id": 2,
+        "name": "Rose Crossbody Mini",
+        "price": 349,
+        "category": "crossbody",
+        "image": "images/rose-crossbody-mini.jpg",
+        "description": "Compact crossbody for essentials. Adjustable strap, magnetic snap, 3 card slots. Perfect for evenings out.",
+        "dimensions": "18cm x 12cm x 6cm",
+        "material": "Vegan Leather"
+    },
+    {
+        "id": 3,
+        "name": "Pink Sand Backpack",
+        "price": 749,
+        "category": "backpack",
+        "image": "images/pink-sand-backpack.jpg",
+        "description": "Lightweight daypack with padded straps and hidden zip pocket. Great for travel + daily commute.",
+        "dimensions": "42cm x 30cm x 15cm",
+        "material": "Nylon + PU"
+    },
+    {
+        "id": 4,
+        "name": "Dusty Rose Clutch",
+        "price": 299,
+        "category": "clutch",
+        "image": "images/dusty-rose-clutch.jpg",
+        "description": "Elegant evening clutch with chain strap. Fits phone, keys, lipstick. Gold-tone.",
+        "dimensions": "24cm x 14cm x 4cm",
+        "material": "Satin + PU"
+    },
+    {
+        "id": 5,
+        "name": "Blush Laptop Tote",
+        "price": 1199,
+        "category": "tote",
+        "image": "images/blush-laptop-bag.jpg",
+        "description": "Premium structured tote for professionals. Padded laptop compartment, water-resistant lining.",
+        "dimensions": "40cm x 32cm x 16cm",
+        "material": "Recycled Leather"
+    },
+    {
+        "id": 6,
+        "name": "Bubblegum Shoulder Bag",
+        "price": 529,
+        "category": "shoulder",
+        "image": "images/bubblegum-shoulder-bag.jpg",
+        "description": "Trendy crescent shoulder bag. Soft slouchy design, inside zip pocket, fits phone + wallet.",
+        "dimensions": "28cm x 20cm x 8cm",
+        "material": "PU Leather"
+    },
+    {
+        "id": 7,
+        "name": "Peony Wallet",
+        "price": 199,
+        "category": "wallet",
+        "image": "images/peony-wallet.jpg",
+        "description": "Bifold wallet with 8 card slots, coin zip, and bill compartment. Matching pink stitching.",
+        "dimensions": "11cm x 9cm x 2cm",
+        "material": "PU Leather"
+    },
+    {
+        "id": 8,
+        "name": "Coral Hobo Bag",
+        "price": 679,
+        "category": "shoulder",
+        "image": "images/coral-hobo-bag.jpg",
+        "description": "Slouchy hobo style with magnetic closure. Spacious main compartment + 2 slip pockets.",
+        "dimensions": "35cm x 30cm x 12cm",
+        "material": "Faux Suede"
+    },
+    {
+        "id": 9,
+        "name": "Fuchsia Mini Backpack",
+        "price": 459,
+        "category": "backpack",
+        "image": "images/fuchsia-mini-backpack.jpg",
+        "description": "Cute mini backpack for festivals and weekends. Front zip pocket + adjustable straps.",
+        "dimensions": "26cm x 20cm x 10cm",
+        "material": "Canvas + PU"
+    },
+    {
+        "id": 10,
+        "name": "Blush Tote with Scarf",
+        "price": 949,
+        "category": "tote",
+        "image": "images/blush-tote-withscarf.jpg",
+        "description": "Large shopper tote with removable silk scarf tie. Twill lining, key clip inside.",
+        "dimensions": "45cm x 35cm x 18cm",
+        "material": "PU Leather + Silk Scarf"
+    },
+    {
+        "id": 11,
+        "name": "Rose Gold Bucket Bag",
+        "price": 599,
+        "category": "shoulder",
+        "image": "images/rosegold-bucketbag.jpg",
+        "description": "Drawstring bucket bag with gold-tone eyelets. Cinch closure, crossbody strap included.",
+        "dimensions": "25cm x 28cm x 15cm",
+        "material": "PU Leather"
+    },
+    {
+        "id": 12,
+        "name": "Pink Organizer Tote",
+        "price": 1099,
+        "category": "tote",
+        "image": "images/pink-organizer-tote.jpg",
+        "description": "Work tote with 10 pockets inside. Keeps pens, cards, phone organized. Fits A4 files.",
+        "dimensions": "39cm x 30cm x 14cm",
+        "material": "Recycled PU"
+    },
+    {
+        "id": 13,
+        "name": "Baby Pink Wristlet",
+        "price": 159,
+        "category": "wallet",
+        "image": "images/baby-pink-wristlet.jpg",
+        "description": "Wristlet wallet for nights out. Zip top, 6 card slots, wrist strap detaches.",
+        "dimensions": "19cm x 11cm x 2cm",
+        "material": "PU Leather"
+    },
+    {
+        "id": 14,
+        "name": "Magenta Travel Duffle",
+        "price": 1299,
+        "category": "backpack",
+        "image": "images/magenta-duffle.jpg",
+        "description": "Weekend duffle that converts to backpack. Shoe compartment + wet pocket included.",
+        "dimensions": "50cm x 28cm x 25cm",
+        "material": "Water-resistant Nylon"
+    },
+    {
+        "id": 15,
+        "name": "Blush Quilted Crossbody",
+        "price": 489,
+        "category": "crossbody",
+        "image": "images/blush-quilted-crossbody.jpg",
+        "description": "Quilted crossbody with chain strap. Flap closure, inner zip pocket, luxury feel.",
+        "dimensions": "22cm x 15cm x 7cm",
+        "material": "Quilted PU Leather"
+    }
+]

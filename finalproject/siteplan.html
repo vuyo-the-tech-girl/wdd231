@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - Blush & Tote</title>
+
+<!-- Typography: Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>E-Commerce Site Plan</h1>
+        </header>
+
+<!-- SITE NAME -->
+    <section>
+        <h2>Site Name</h2>
+        <h3>Blush & Tote</h3>
+        <p><strong>Why this name:</strong> "Blush" captures the pink color theme and soft, feminine vibe. "Tote" clearly tells customers we specialize in handbags, totes, and accessories. It's short, brandable, and pairs well with a minimalist handbag logo. Domain is easy to read.</p>
+    </section>
+
+<!-- SITE PURPOSE -->
+    <section>
+        <h2>Site Purpose</h2>
+        <p>Blush & Tote is an online boutique for modern bags and accessories. We sell handbags, crossbody bags, totes, backpacks, and wallets for everyday use, work, and special events. The site provides detailed product photos, size/dimension guides, material info, customer reviews, and secure checkout.</p>
+    </section>
+
+<!-- SCENARIOS -->
+    <section>
+        <h2>Target Audience Scenarios</h2>
+        <p>These are questions real customers would ask. Answering them drives our content:</p>
+        <ul>
+            <li><strong>Scenario 1:</strong> "I need a work tote that fits my 15-inch laptop + lunch. What are the exact dimensions and does it have an inside zip pocket?"</li>
+            <li><strong>Scenario 2:</strong> "What’s your return policy if the color looks different in person? And how long does shipping take to East London?"</li>
+        </ul>
+    </section>
+
+<!-- COLOR SCHEME -->
+    <section>
+        <h2>Color Scheme</h2>
+        <p>Pink palette chosen for fashion/accessory branding. High contrast with dark brown text for readability:</p>
+
+        <div>
+            <div class="color-swatch" style="background: var(--primary);">#D63384<br>Primary</div>
+            <div class="color-swatch" style="background: var(--secondary); color: var(--dark);">#FFB6C1<br>Secondary</div>
+            <div class="color-swatch" style="background: var(--dark);">#4A2C2A<br>Dark</div>
+            <div class="color-swatch" style="background: var(--light); color: var(--dark); border: 1px solid #ccc;">#FFF5F7<br>Light</div>
+        </div>
+
+        <ul>
+            <li><strong>Primary #D63384 Hot Pink:</strong> H1/H2 headings, buttons, sale badges, accents</li>
+            <li><strong>Secondary #FFB6C1 Light Pink:</strong> Button hover state, card backgrounds, highlights</li>
+            <li><strong>Dark #4A2C2A Deep Brown:</strong> Body text, footer background. Chosen over black for softer contrast with pink</li>
+            <li><strong>Light #FFF5F7 Blush:</strong> Page background, section backgrounds. Keeps site feeling light and clean</li>
+        </ul>
+
+        <button class="btn-example">Shop Now</button>
+        <p><em>Hover the button to see secondary pink in use.</em></p>
+    </section>
+
+<!-- TYPOGRAPHY -->
+    <section>
+    <h2>Typography</h2>
+    <p>Using 2 Google Fonts for fashion + readability:</p>
+    <ul>
+        <li><strong>Playfair Display, serif:</strong> All headings H1-H3. Elegant, high-end feel for fashion branding and product names.</li>
+        <li><strong>Lato, sans-serif:</strong> Body text, product descriptions, lists. Clean and highly readable on mobile.</li>
+    </ul>
+    <p style="font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--primary);">This is Playfair Display - used for headings</p>
+    <p>This is Lato - used for body text and product details. Easy to read for sizing + material info.</p>
+    </section>
+
+<!-- WIREFRAME -->
+    <section>
+        <h2>Wireframe - Home Page Layout</h2>
+
+        <h3>Mobile View - 320px to 640px</h3>
+        <div class="wireframe mobile-wireframe">
+            <div class="box" style="background: var(--primary); color: white;">Header + Logo + Hamburger Nav</div>
+            <div class="box">Hero Banner: New Pink Collection</div>
+            <div class="box">Featured Bags - 1 column scroll</div>
+            <div class="box">Category Cards: Totes | Crossbody | Wallets</div>
+            <div class="box" style="background: var(--dark); color: white;">Footer: Links + Newsletter + Contact</div>
+        </div>
+
+        <h3>Desktop/Tablet View - 641px+</h3>
+        <div class="wireframe desktop-wireframe">
+            <div class="box" style="background: var(--primary); color: white;">Header + Logo | Navigation | Cart Icon</div>
+            <div class="box">Full-width Hero Banner + "Shop Pink Collection" CTA Button</div>
+            <div class="grid-desktop">
+                <div class="box">Bag Card 1 + Price</div>
+                <div class="box">Bag Card 2 + Price</div>
+                <div class="box">Bag Card 3 + Price</div>
+            </div>
+            <div class="grid-desktop">
+                <div class="box">Category: Work Totes</div>
+                <div class="box">Category: Evening Bags</div>
+                <div class="box">Category: Casual Crossbody</div>
+            </div>
+            <div class="box" style="background: var(--dark); color: white;">Footer: About | Shipping | Returns | Newsletter Signup</div>
+        </div>
+        <p>Wireframes show mobile-first single column, then 3-column grid for desktop. Boxes represent product blocks, not final images.</p>
+    </section>
+
+    <footer>
+        <p>Site Plan for WDD 231 - Vuyo Faleni | 16 April 2026</p>
+    </footer>
+</div>
+</body>
+</html>
