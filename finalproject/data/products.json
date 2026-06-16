@@ -114,7 +114,7 @@
         "name": "Pink Organizer Tote",
         "price": 1099,
         "category": "tote",
-        "image": "images/pink-organizer-tote.jpg",
+        "image": "images/pink-organizer-tote",
         "description": "Work tote with 10 pockets inside. Keeps pens, cards, phone organized. Fits A4 files.",
         "dimensions": "39cm x 30cm x 14cm",
         "material": "Recycled PU"
@@ -134,7 +134,7 @@
         "name": "Magenta Travel Duffle",
         "price": 1299,
         "category": "backpack",
-        "image": "images/magenta-duffle.jpg",
+        "image": "images/magenta-duffel.jpg",
         "description": "Weekend duffle that converts to backpack. Shoe compartment + wet pocket included.",
         "dimensions": "50cm x 28cm x 25cm",
         "material": "Water-resistant Nylon"
